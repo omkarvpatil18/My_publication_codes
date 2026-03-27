@@ -1,0 +1,3798 @@
+[
+  {
+    "scale": 100,
+    "demand": 8000,
+    "feasible": true,
+    "n_models": 282,
+    "paper_n_models": 267,
+    "solve_time_first_opt_s": 0.0966,
+    "solve_time_total_s": 0.9269,
+    "soc_thresh": 2400,
+    "env_thresh": 2200,
+    "total_primary_cap": 12408,
+    "total_backup_cap": 6408,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 30,
+        "cap_lost": 3839,
+        "cap_lost_pct": 30.9,
+        "eff_primary_cap": 8569,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 65,
+        "primary_selected_max": 100,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 127904,
+        "total_cost_max": 207295,
+        "total_cost_range": 79391,
+        "soc_min": 4323,
+        "soc_max": 6868,
+        "soc_headroom_pct": 80.1,
+        "env_min": 4766,
+        "env_max": 7091,
+        "env_headroom_pct": 116.6,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p007",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p015",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p019",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p020",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p021",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p023",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p024",
+            "freq": 282,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 3,
+            "freq_pct": 1.1
+          },
+          {
+            "supplier": "p009",
+            "freq": 7,
+            "freq_pct": 2.5
+          },
+          {
+            "supplier": "p016",
+            "freq": 9,
+            "freq_pct": 3.2
+          },
+          {
+            "supplier": "p017",
+            "freq": 19,
+            "freq_pct": 6.7
+          },
+          {
+            "supplier": "p033",
+            "freq": 31,
+            "freq_pct": 11.0
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 30,
+        "cap_lost": 3738,
+        "cap_lost_pct": 30.1,
+        "eff_primary_cap": 8670,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 65,
+        "primary_selected_max": 100,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 133086,
+        "total_cost_max": 207295,
+        "total_cost_range": 74209,
+        "soc_min": 4647,
+        "soc_max": 6868,
+        "soc_headroom_pct": 93.6,
+        "env_min": 4742,
+        "env_max": 7091,
+        "env_headroom_pct": 115.5,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 282,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p028",
+            "freq": 22,
+            "freq_pct": 7.8
+          },
+          {
+            "supplier": "p031",
+            "freq": 30,
+            "freq_pct": 10.6
+          },
+          {
+            "supplier": "p032",
+            "freq": 35,
+            "freq_pct": 12.4
+          },
+          {
+            "supplier": "p033",
+            "freq": 37,
+            "freq_pct": 13.1
+          },
+          {
+            "supplier": "p038",
+            "freq": 39,
+            "freq_pct": 13.8
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 30,
+        "cap_lost": 4046,
+        "cap_lost_pct": 32.6,
+        "eff_primary_cap": 8362,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 67,
+        "primary_selected_max": 100,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 139445,
+        "total_cost_max": 207295,
+        "total_cost_range": 67850,
+        "soc_min": 4556,
+        "soc_max": 6868,
+        "soc_headroom_pct": 89.8,
+        "env_min": 4737,
+        "env_max": 7091,
+        "env_headroom_pct": 115.3,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p002",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p005",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 282,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 282,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p100",
+            "freq": 13,
+            "freq_pct": 4.6
+          },
+          {
+            "supplier": "p056",
+            "freq": 24,
+            "freq_pct": 8.5
+          },
+          {
+            "supplier": "p059",
+            "freq": 28,
+            "freq_pct": 9.9
+          },
+          {
+            "supplier": "p025",
+            "freq": 85,
+            "freq_pct": 30.1
+          },
+          {
+            "supplier": "p026",
+            "freq": 89,
+            "freq_pct": 31.6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 100,
+    "demand": 10000,
+    "feasible": true,
+    "n_models": 233,
+    "paper_n_models": 232,
+    "solve_time_first_opt_s": 0.0116,
+    "solve_time_total_s": 0.7762,
+    "soc_thresh": 2400,
+    "env_thresh": 2200,
+    "total_primary_cap": 12408,
+    "total_backup_cap": 6408,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 30,
+        "cap_lost": 3839,
+        "cap_lost_pct": 30.9,
+        "eff_primary_cap": 8569,
+        "backup_needed": true,
+        "asp_backups_min": 8,
+        "asp_backups_max": 8,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 68,
+        "primary_selected_max": 100,
+        "asp_obj_value": 203,
+        "asp_obj_consistent": true,
+        "total_cost_min": 177013,
+        "total_cost_max": 250657,
+        "total_cost_range": 73644,
+        "soc_min": 5046,
+        "soc_max": 7410,
+        "soc_headroom_pct": 110.2,
+        "env_min": 5544,
+        "env_max": 7676,
+        "env_headroom_pct": 152.0,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 25.9,
+        "backup_cap_util_max_pct": 25.9,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b01",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b02",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b03",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b04",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b05",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b06",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b07",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b08",
+            "freq": 233,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p009",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p015",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p016",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p017",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p019",
+            "freq": 233,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p090",
+            "freq": 80,
+            "freq_pct": 34.3
+          },
+          {
+            "supplier": "p100",
+            "freq": 88,
+            "freq_pct": 37.8
+          },
+          {
+            "supplier": "p099",
+            "freq": 92,
+            "freq_pct": 39.5
+          },
+          {
+            "supplier": "p097",
+            "freq": 96,
+            "freq_pct": 41.2
+          },
+          {
+            "supplier": "p096",
+            "freq": 98,
+            "freq_pct": 42.1
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 30,
+        "cap_lost": 3738,
+        "cap_lost_pct": 30.1,
+        "eff_primary_cap": 8670,
+        "backup_needed": true,
+        "asp_backups_min": 7,
+        "asp_backups_max": 7,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 69,
+        "primary_selected_max": 100,
+        "asp_obj_value": 181,
+        "asp_obj_consistent": true,
+        "total_cost_min": 180199,
+        "total_cost_max": 245157,
+        "total_cost_range": 64958,
+        "soc_min": 5385,
+        "soc_max": 7356,
+        "soc_headroom_pct": 124.4,
+        "env_min": 5471,
+        "env_max": 7596,
+        "env_headroom_pct": 148.7,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 22.0,
+        "backup_cap_util_max_pct": 22.0,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b01",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b02",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b03",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b04",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b05",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b06",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b07",
+            "freq": 233,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 233,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p099",
+            "freq": 7,
+            "freq_pct": 3.0
+          },
+          {
+            "supplier": "p090",
+            "freq": 10,
+            "freq_pct": 4.3
+          },
+          {
+            "supplier": "p096",
+            "freq": 11,
+            "freq_pct": 4.7
+          },
+          {
+            "supplier": "p095",
+            "freq": 14,
+            "freq_pct": 6.0
+          },
+          {
+            "supplier": "p091",
+            "freq": 18,
+            "freq_pct": 7.7
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 30,
+        "cap_lost": 4046,
+        "cap_lost_pct": 32.6,
+        "eff_primary_cap": 8362,
+        "backup_needed": true,
+        "asp_backups_min": 8,
+        "asp_backups_max": 8,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 70,
+        "primary_selected_max": 100,
+        "asp_obj_value": 203,
+        "asp_obj_consistent": true,
+        "total_cost_min": 186900,
+        "total_cost_max": 250657,
+        "total_cost_range": 63757,
+        "soc_min": 5316,
+        "soc_max": 7410,
+        "soc_headroom_pct": 121.5,
+        "env_min": 5501,
+        "env_max": 7676,
+        "env_headroom_pct": 150.0,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 25.9,
+        "backup_cap_util_max_pct": 25.9,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b01",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b02",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b03",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b04",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b05",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b06",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b07",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b08",
+            "freq": 233,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p002",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p005",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p009",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 233,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 233,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 3,
+            "freq_pct": 1.3
+          },
+          {
+            "supplier": "p067",
+            "freq": 149,
+            "freq_pct": 63.9
+          },
+          {
+            "supplier": "p070",
+            "freq": 174,
+            "freq_pct": 74.7
+          },
+          {
+            "supplier": "p074",
+            "freq": 176,
+            "freq_pct": 75.5
+          },
+          {
+            "supplier": "p081",
+            "freq": 178,
+            "freq_pct": 76.4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 100,
+    "demand": 12000,
+    "feasible": true,
+    "n_models": 217,
+    "paper_n_models": 234,
+    "solve_time_first_opt_s": 0.0102,
+    "solve_time_total_s": 0.7714,
+    "soc_thresh": 2400,
+    "env_thresh": 2200,
+    "total_primary_cap": 12408,
+    "total_backup_cap": 6408,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 30,
+        "cap_lost": 3839,
+        "cap_lost_pct": 30.9,
+        "eff_primary_cap": 8569,
+        "backup_needed": true,
+        "asp_backups_min": 17,
+        "asp_backups_max": 17,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 70,
+        "primary_selected_max": 100,
+        "asp_obj_value": 428,
+        "asp_obj_consistent": true,
+        "total_cost_min": 226323,
+        "total_cost_max": 295952,
+        "total_cost_range": 69629,
+        "soc_min": 5814,
+        "soc_max": 8037,
+        "soc_headroom_pct": 142.2,
+        "env_min": 6226,
+        "env_max": 8229,
+        "env_headroom_pct": 183.0,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 54.3,
+        "backup_cap_util_max_pct": 54.3,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b01",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b02",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b03",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b04",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b05",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b06",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b07",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b08",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b09",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b10",
+            "freq": 217,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p009",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p015",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p016",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p017",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p019",
+            "freq": 217,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p090",
+            "freq": 69,
+            "freq_pct": 31.8
+          },
+          {
+            "supplier": "p093",
+            "freq": 87,
+            "freq_pct": 40.1
+          },
+          {
+            "supplier": "p039",
+            "freq": 90,
+            "freq_pct": 41.5
+          },
+          {
+            "supplier": "p083",
+            "freq": 90,
+            "freq_pct": 41.5
+          },
+          {
+            "supplier": "p078",
+            "freq": 94,
+            "freq_pct": 43.3
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 30,
+        "cap_lost": 3738,
+        "cap_lost_pct": 30.1,
+        "eff_primary_cap": 8670,
+        "backup_needed": true,
+        "asp_backups_min": 16,
+        "asp_backups_max": 16,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 70,
+        "primary_selected_max": 100,
+        "asp_obj_value": 396,
+        "asp_obj_consistent": true,
+        "total_cost_min": 228251,
+        "total_cost_max": 292624,
+        "total_cost_range": 64373,
+        "soc_min": 6104,
+        "soc_max": 7994,
+        "soc_headroom_pct": 154.3,
+        "env_min": 6128,
+        "env_max": 8161,
+        "env_headroom_pct": 178.5,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 52.7,
+        "backup_cap_util_max_pct": 52.7,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b01",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b02",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b03",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b04",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b05",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b06",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b07",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b08",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b09",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b10",
+            "freq": 217,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 217,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p099",
+            "freq": 9,
+            "freq_pct": 4.1
+          },
+          {
+            "supplier": "p096",
+            "freq": 13,
+            "freq_pct": 6.0
+          },
+          {
+            "supplier": "p090",
+            "freq": 16,
+            "freq_pct": 7.4
+          },
+          {
+            "supplier": "p091",
+            "freq": 17,
+            "freq_pct": 7.8
+          },
+          {
+            "supplier": "p089",
+            "freq": 20,
+            "freq_pct": 9.2
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 30,
+        "cap_lost": 4046,
+        "cap_lost_pct": 32.6,
+        "eff_primary_cap": 8362,
+        "backup_needed": true,
+        "asp_backups_min": 19,
+        "asp_backups_max": 19,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 69,
+        "primary_selected_max": 100,
+        "asp_obj_value": 496,
+        "asp_obj_consistent": true,
+        "total_cost_min": 239110,
+        "total_cost_max": 304907,
+        "total_cost_range": 65797,
+        "soc_min": 6000,
+        "soc_max": 8170,
+        "soc_headroom_pct": 150.0,
+        "env_min": 6106,
+        "env_max": 8376,
+        "env_headroom_pct": 177.5,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 58.5,
+        "backup_cap_util_max_pct": 58.5,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b01",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b02",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b03",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b04",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b05",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b06",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b07",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b08",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b09",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b10",
+            "freq": 217,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p003",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p005",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p009",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 217,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 217,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p002",
+            "freq": 3,
+            "freq_pct": 1.4
+          },
+          {
+            "supplier": "p001",
+            "freq": 5,
+            "freq_pct": 2.3
+          },
+          {
+            "supplier": "p095",
+            "freq": 83,
+            "freq_pct": 38.2
+          },
+          {
+            "supplier": "p086",
+            "freq": 86,
+            "freq_pct": 39.6
+          },
+          {
+            "supplier": "p067",
+            "freq": 137,
+            "freq_pct": 63.1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 500,
+    "demand": 40000,
+    "feasible": true,
+    "n_models": 1520,
+    "paper_n_models": 1517,
+    "solve_time_first_opt_s": 0.068,
+    "solve_time_total_s": 20.8364,
+    "soc_thresh": 12000,
+    "env_thresh": 11000,
+    "total_primary_cap": 63861,
+    "total_backup_cap": 32742,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 150,
+        "cap_lost": 19340,
+        "cap_lost_pct": 30.3,
+        "eff_primary_cap": 44521,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 316,
+        "primary_selected_max": 500,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 650905,
+        "total_cost_max": 1039795,
+        "total_cost_range": 388890,
+        "soc_min": 21610,
+        "soc_max": 34193,
+        "soc_headroom_pct": 80.1,
+        "env_min": 21938,
+        "env_max": 34674,
+        "env_headroom_pct": 99.4,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p003",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p014",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p015",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p018",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p019",
+            "freq": 1520,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 5,
+            "freq_pct": 0.3
+          },
+          {
+            "supplier": "p002",
+            "freq": 7,
+            "freq_pct": 0.5
+          },
+          {
+            "supplier": "p008",
+            "freq": 9,
+            "freq_pct": 0.6
+          },
+          {
+            "supplier": "p017",
+            "freq": 13,
+            "freq_pct": 0.9
+          },
+          {
+            "supplier": "p064",
+            "freq": 17,
+            "freq_pct": 1.1
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 150,
+        "cap_lost": 18717,
+        "cap_lost_pct": 29.3,
+        "eff_primary_cap": 45144,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 308,
+        "primary_selected_max": 500,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 656423,
+        "total_cost_max": 1039795,
+        "total_cost_range": 383372,
+        "soc_min": 21213,
+        "soc_max": 34193,
+        "soc_headroom_pct": 76.8,
+        "env_min": 21244,
+        "env_max": 34674,
+        "env_headroom_pct": 93.1,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p005",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p068",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p069",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p071",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p074",
+            "freq": 1520,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p012",
+            "freq": 49,
+            "freq_pct": 3.2
+          },
+          {
+            "supplier": "p013",
+            "freq": 56,
+            "freq_pct": 3.7
+          },
+          {
+            "supplier": "p015",
+            "freq": 76,
+            "freq_pct": 5.0
+          },
+          {
+            "supplier": "p016",
+            "freq": 107,
+            "freq_pct": 7.0
+          },
+          {
+            "supplier": "p018",
+            "freq": 122,
+            "freq_pct": 8.0
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 150,
+        "cap_lost": 19800,
+        "cap_lost_pct": 31.0,
+        "eff_primary_cap": 44061,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 317,
+        "primary_selected_max": 500,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 652799,
+        "total_cost_max": 1039795,
+        "total_cost_range": 386996,
+        "soc_min": 21540,
+        "soc_max": 34193,
+        "soc_headroom_pct": 79.5,
+        "env_min": 22443,
+        "env_max": 34674,
+        "env_headroom_pct": 104.0,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1520,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1520,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p493",
+            "freq": 19,
+            "freq_pct": 1.2
+          },
+          {
+            "supplier": "p498",
+            "freq": 21,
+            "freq_pct": 1.4
+          },
+          {
+            "supplier": "p494",
+            "freq": 31,
+            "freq_pct": 2.0
+          },
+          {
+            "supplier": "p492",
+            "freq": 35,
+            "freq_pct": 2.3
+          },
+          {
+            "supplier": "p491",
+            "freq": 37,
+            "freq_pct": 2.4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 500,
+    "demand": 45000,
+    "feasible": true,
+    "n_models": 1223,
+    "paper_n_models": 1205,
+    "solve_time_first_opt_s": 0.0727,
+    "solve_time_total_s": 18.2223,
+    "soc_thresh": 12000,
+    "env_thresh": 11000,
+    "total_primary_cap": 63861,
+    "total_backup_cap": 32742,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 150,
+        "cap_lost": 19340,
+        "cap_lost_pct": 30.3,
+        "eff_primary_cap": 44521,
+        "backup_needed": true,
+        "asp_backups_min": 3,
+        "asp_backups_max": 3,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 349,
+        "primary_selected_max": 500,
+        "asp_obj_value": 61,
+        "asp_obj_consistent": true,
+        "total_cost_min": 733011,
+        "total_cost_max": 1054128,
+        "total_cost_range": 321117,
+        "soc_min": 24024,
+        "soc_max": 34395,
+        "soc_headroom_pct": 100.2,
+        "env_min": 24791,
+        "env_max": 34931,
+        "env_headroom_pct": 125.4,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 2.1,
+        "backup_cap_util_max_pct": 2.1,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 1223,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p014",
+            "freq": 1223,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p500",
+            "freq": 568,
+            "freq_pct": 46.4
+          },
+          {
+            "supplier": "p499",
+            "freq": 572,
+            "freq_pct": 46.8
+          },
+          {
+            "supplier": "p476",
+            "freq": 574,
+            "freq_pct": 46.9
+          },
+          {
+            "supplier": "p495",
+            "freq": 576,
+            "freq_pct": 47.1
+          },
+          {
+            "supplier": "p483",
+            "freq": 580,
+            "freq_pct": 47.4
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 150,
+        "cap_lost": 18717,
+        "cap_lost_pct": 29.3,
+        "eff_primary_cap": 45144,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 349,
+        "primary_selected_max": 500,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 736509,
+        "total_cost_max": 1039795,
+        "total_cost_range": 303286,
+        "soc_min": 23942,
+        "soc_max": 34193,
+        "soc_headroom_pct": 99.5,
+        "env_min": 24121,
+        "env_max": 34674,
+        "env_headroom_pct": 119.3,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p005",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p015",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p016",
+            "freq": 1223,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p499",
+            "freq": 150,
+            "freq_pct": 12.3
+          },
+          {
+            "supplier": "p497",
+            "freq": 154,
+            "freq_pct": 12.6
+          },
+          {
+            "supplier": "p495",
+            "freq": 156,
+            "freq_pct": 12.8
+          },
+          {
+            "supplier": "p494",
+            "freq": 160,
+            "freq_pct": 13.1
+          },
+          {
+            "supplier": "p491",
+            "freq": 162,
+            "freq_pct": 13.2
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 150,
+        "cap_lost": 19800,
+        "cap_lost_pct": 31.0,
+        "eff_primary_cap": 44061,
+        "backup_needed": true,
+        "asp_backups_min": 5,
+        "asp_backups_max": 5,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 348,
+        "primary_selected_max": 500,
+        "asp_obj_value": 113,
+        "asp_obj_consistent": true,
+        "total_cost_min": 740942,
+        "total_cost_max": 1064554,
+        "total_cost_range": 323612,
+        "soc_min": 24032,
+        "soc_max": 34566,
+        "soc_headroom_pct": 100.3,
+        "env_min": 24899,
+        "env_max": 35063,
+        "env_headroom_pct": 126.4,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 3.3,
+        "backup_cap_util_max_pct": 3.3,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 1223,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1223,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1223,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p171",
+            "freq": 3,
+            "freq_pct": 0.2
+          },
+          {
+            "supplier": "p170",
+            "freq": 7,
+            "freq_pct": 0.6
+          },
+          {
+            "supplier": "p167",
+            "freq": 8,
+            "freq_pct": 0.7
+          },
+          {
+            "supplier": "p163",
+            "freq": 12,
+            "freq_pct": 1.0
+          },
+          {
+            "supplier": "p161",
+            "freq": 18,
+            "freq_pct": 1.5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 500,
+    "demand": 50000,
+    "feasible": true,
+    "n_models": 1222,
+    "paper_n_models": 1199,
+    "solve_time_first_opt_s": 0.0726,
+    "solve_time_total_s": 19.2236,
+    "soc_thresh": 12000,
+    "env_thresh": 11000,
+    "total_primary_cap": 63861,
+    "total_backup_cap": 32742,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 150,
+        "cap_lost": 19340,
+        "cap_lost_pct": 30.3,
+        "eff_primary_cap": 44521,
+        "backup_needed": true,
+        "asp_backups_min": 28,
+        "asp_backups_max": 28,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 350,
+        "primary_selected_max": 500,
+        "asp_obj_value": 672,
+        "asp_obj_consistent": true,
+        "total_cost_min": 855768,
+        "total_cost_max": 1173147,
+        "total_cost_range": 317379,
+        "soc_min": 25843,
+        "soc_max": 36150,
+        "soc_headroom_pct": 115.4,
+        "env_min": 26520,
+        "env_max": 36599,
+        "env_headroom_pct": 141.1,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 16.8,
+        "backup_cap_util_max_pct": 16.8,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 1222,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p014",
+            "freq": 1222,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p378",
+            "freq": 340,
+            "freq_pct": 27.8
+          },
+          {
+            "supplier": "p499",
+            "freq": 428,
+            "freq_pct": 35.0
+          },
+          {
+            "supplier": "p476",
+            "freq": 431,
+            "freq_pct": 35.3
+          },
+          {
+            "supplier": "p495",
+            "freq": 432,
+            "freq_pct": 35.4
+          },
+          {
+            "supplier": "p483",
+            "freq": 436,
+            "freq_pct": 35.7
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 150,
+        "cap_lost": 18717,
+        "cap_lost_pct": 29.3,
+        "eff_primary_cap": 45144,
+        "backup_needed": true,
+        "asp_backups_min": 25,
+        "asp_backups_max": 25,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 349,
+        "primary_selected_max": 500,
+        "asp_obj_value": 606,
+        "asp_obj_consistent": true,
+        "total_cost_min": 858767,
+        "total_cost_max": 1161201,
+        "total_cost_range": 302434,
+        "soc_min": 25752,
+        "soc_max": 35967,
+        "soc_headroom_pct": 114.6,
+        "env_min": 25816,
+        "env_max": 36374,
+        "env_headroom_pct": 134.7,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 15.1,
+        "backup_cap_util_max_pct": 15.1,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 1222,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p005",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p010",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p015",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p016",
+            "freq": 1222,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p498",
+            "freq": 9,
+            "freq_pct": 0.7
+          },
+          {
+            "supplier": "p497",
+            "freq": 12,
+            "freq_pct": 1.0
+          },
+          {
+            "supplier": "p495",
+            "freq": 14,
+            "freq_pct": 1.1
+          },
+          {
+            "supplier": "p494",
+            "freq": 18,
+            "freq_pct": 1.5
+          },
+          {
+            "supplier": "p491",
+            "freq": 20,
+            "freq_pct": 1.6
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 150,
+        "cap_lost": 19800,
+        "cap_lost_pct": 31.0,
+        "eff_primary_cap": 44061,
+        "backup_needed": true,
+        "asp_backups_min": 31,
+        "asp_backups_max": 31,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 350,
+        "primary_selected_max": 500,
+        "asp_obj_value": 747,
+        "asp_obj_consistent": true,
+        "total_cost_min": 863394,
+        "total_cost_max": 1184949,
+        "total_cost_range": 321555,
+        "soc_min": 25993,
+        "soc_max": 36361,
+        "soc_headroom_pct": 116.6,
+        "env_min": 26771,
+        "env_max": 36813,
+        "env_headroom_pct": 143.4,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 18.2,
+        "backup_cap_util_max_pct": 18.2,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 1222,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p001",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p002",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p003",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p004",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p006",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p007",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p008",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p011",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p012",
+            "freq": 1222,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p013",
+            "freq": 1222,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p005",
+            "freq": 5,
+            "freq_pct": 0.4
+          },
+          {
+            "supplier": "p427",
+            "freq": 823,
+            "freq_pct": 67.3
+          },
+          {
+            "supplier": "p066",
+            "freq": 834,
+            "freq_pct": 68.2
+          },
+          {
+            "supplier": "p079",
+            "freq": 838,
+            "freq_pct": 68.6
+          },
+          {
+            "supplier": "p469",
+            "freq": 840,
+            "freq_pct": 68.7
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 1000,
+    "demand": 90000,
+    "feasible": true,
+    "n_models": 2581,
+    "paper_n_models": 3250,
+    "solve_time_first_opt_s": 0.2013,
+    "solve_time_total_s": 86.2337,
+    "soc_thresh": 24000,
+    "env_thresh": 22000,
+    "total_primary_cap": 128830,
+    "total_backup_cap": 67096,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 300,
+        "cap_lost": 37955,
+        "cap_lost_pct": 29.5,
+        "eff_primary_cap": 90875,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 692,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1507225,
+        "total_cost_max": 2148193,
+        "total_cost_range": 640968,
+        "soc_min": 47886,
+        "soc_max": 69265,
+        "soc_headroom_pct": 99.5,
+        "env_min": 48534,
+        "env_max": 69816,
+        "env_headroom_pct": 120.6,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0003",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0007",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0009",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0014",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0015",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0017",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0018",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0020",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0021",
+            "freq": 2581,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p0001",
+            "freq": 6,
+            "freq_pct": 0.2
+          },
+          {
+            "supplier": "p0002",
+            "freq": 8,
+            "freq_pct": 0.3
+          },
+          {
+            "supplier": "p0004",
+            "freq": 9,
+            "freq_pct": 0.3
+          },
+          {
+            "supplier": "p0016",
+            "freq": 13,
+            "freq_pct": 0.5
+          },
+          {
+            "supplier": "p0032",
+            "freq": 17,
+            "freq_pct": 0.7
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 300,
+        "cap_lost": 38792,
+        "cap_lost_pct": 30.1,
+        "eff_primary_cap": 90038,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 700,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1505279,
+        "total_cost_max": 2148193,
+        "total_cost_range": 642914,
+        "soc_min": 48105,
+        "soc_max": 69265,
+        "soc_headroom_pct": 100.4,
+        "env_min": 48787,
+        "env_max": 69816,
+        "env_headroom_pct": 121.8,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0002",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0006",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0008",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0010",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0012",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0013",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0015",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0017",
+            "freq": 2581,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p0068",
+            "freq": 1774,
+            "freq_pct": 68.7
+          },
+          {
+            "supplier": "p0088",
+            "freq": 1774,
+            "freq_pct": 68.7
+          },
+          {
+            "supplier": "p0085",
+            "freq": 1777,
+            "freq_pct": 68.8
+          },
+          {
+            "supplier": "p0929",
+            "freq": 1780,
+            "freq_pct": 69.0
+          },
+          {
+            "supplier": "p0064",
+            "freq": 1783,
+            "freq_pct": 69.1
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 300,
+        "cap_lost": 37801,
+        "cap_lost_pct": 29.3,
+        "eff_primary_cap": 91029,
+        "backup_needed": false,
+        "asp_backups_min": 0,
+        "asp_backups_max": 0,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 693,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 0,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1495285,
+        "total_cost_max": 2148193,
+        "total_cost_range": 652908,
+        "soc_min": 47429,
+        "soc_max": 69265,
+        "soc_headroom_pct": 97.6,
+        "env_min": 48850,
+        "env_max": 69816,
+        "env_headroom_pct": 122.0,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 0.0,
+        "backup_cap_util_max_pct": 0.0,
+        "top_backup_suppliers": [],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0001",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0002",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0006",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0007",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0008",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0010",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0014",
+            "freq": 2581,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0017",
+            "freq": 2581,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p0748",
+            "freq": 26,
+            "freq_pct": 1.0
+          },
+          {
+            "supplier": "p0749",
+            "freq": 29,
+            "freq_pct": 1.1
+          },
+          {
+            "supplier": "p0750",
+            "freq": 33,
+            "freq_pct": 1.3
+          },
+          {
+            "supplier": "p0752",
+            "freq": 35,
+            "freq_pct": 1.4
+          },
+          {
+            "supplier": "p0753",
+            "freq": 37,
+            "freq_pct": 1.4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 1000,
+    "demand": 95000,
+    "feasible": true,
+    "n_models": 2525,
+    "paper_n_models": 2492,
+    "solve_time_first_opt_s": 0.3174,
+    "solve_time_total_s": 79.2958,
+    "soc_thresh": 24000,
+    "env_thresh": 22000,
+    "total_primary_cap": 128830,
+    "total_backup_cap": 67096,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 300,
+        "cap_lost": 37955,
+        "cap_lost_pct": 29.5,
+        "eff_primary_cap": 90875,
+        "backup_needed": true,
+        "asp_backups_min": 21,
+        "asp_backups_max": 21,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 698,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 503,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1624077,
+        "total_cost_max": 2254469,
+        "total_cost_range": 630392,
+        "soc_min": 49733,
+        "soc_max": 70707,
+        "soc_headroom_pct": 107.2,
+        "env_min": 50143,
+        "env_max": 71124,
+        "env_headroom_pct": 127.9,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 6.5,
+        "backup_cap_util_max_pct": 6.5,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 2525,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0001",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0002",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0004",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0007",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0009",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0014",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0015",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0016",
+            "freq": 2525,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p1000",
+            "freq": 859,
+            "freq_pct": 34.0
+          },
+          {
+            "supplier": "p0997",
+            "freq": 861,
+            "freq_pct": 34.1
+          },
+          {
+            "supplier": "p0993",
+            "freq": 863,
+            "freq_pct": 34.2
+          },
+          {
+            "supplier": "p0992",
+            "freq": 865,
+            "freq_pct": 34.3
+          },
+          {
+            "supplier": "p0989",
+            "freq": 869,
+            "freq_pct": 34.4
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 300,
+        "cap_lost": 38792,
+        "cap_lost_pct": 30.1,
+        "eff_primary_cap": 90038,
+        "backup_needed": true,
+        "asp_backups_min": 24,
+        "asp_backups_max": 24,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 699,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 566,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1625120,
+        "total_cost_max": 2268658,
+        "total_cost_range": 643538,
+        "soc_min": 49655,
+        "soc_max": 70879,
+        "soc_headroom_pct": 106.9,
+        "env_min": 50229,
+        "env_max": 71326,
+        "env_headroom_pct": 128.3,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 7.5,
+        "backup_cap_util_max_pct": 7.5,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 2525,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0002",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0006",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0008",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0010",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0012",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0013",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0015",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0017",
+            "freq": 2525,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p0999",
+            "freq": 8,
+            "freq_pct": 0.3
+          },
+          {
+            "supplier": "p0996",
+            "freq": 10,
+            "freq_pct": 0.4
+          },
+          {
+            "supplier": "p0995",
+            "freq": 14,
+            "freq_pct": 0.6
+          },
+          {
+            "supplier": "p0992",
+            "freq": 16,
+            "freq_pct": 0.6
+          },
+          {
+            "supplier": "p0987",
+            "freq": 18,
+            "freq_pct": 0.7
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 300,
+        "cap_lost": 37801,
+        "cap_lost_pct": 29.3,
+        "eff_primary_cap": 91029,
+        "backup_needed": true,
+        "asp_backups_min": 20,
+        "asp_backups_max": 20,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 699,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 468,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1607776,
+        "total_cost_max": 2245264,
+        "total_cost_range": 637488,
+        "soc_min": 49238,
+        "soc_max": 70627,
+        "soc_headroom_pct": 105.2,
+        "env_min": 50492,
+        "env_max": 71027,
+        "env_headroom_pct": 129.5,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 6.1,
+        "backup_cap_util_max_pct": 6.1,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 2525,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0001",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0006",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0007",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0008",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0010",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0014",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0017",
+            "freq": 2525,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0018",
+            "freq": 2525,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p0004",
+            "freq": 3,
+            "freq_pct": 0.1
+          },
+          {
+            "supplier": "p0002",
+            "freq": 7,
+            "freq_pct": 0.3
+          },
+          {
+            "supplier": "p0053",
+            "freq": 1688,
+            "freq_pct": 66.9
+          },
+          {
+            "supplier": "p0733",
+            "freq": 1692,
+            "freq_pct": 67.0
+          },
+          {
+            "supplier": "p0547",
+            "freq": 1698,
+            "freq_pct": 67.2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scale": 1000,
+    "demand": 100000,
+    "feasible": true,
+    "n_models": 2512,
+    "paper_n_models": 2486,
+    "solve_time_first_opt_s": 0.2264,
+    "solve_time_total_s": 80.9822,
+    "soc_thresh": 24000,
+    "env_thresh": 22000,
+    "total_primary_cap": 128830,
+    "total_backup_cap": 67096,
+    "scenarios": {
+      "w1": {
+        "n_disrupted": 300,
+        "cap_lost": 37955,
+        "cap_lost_pct": 29.5,
+        "eff_primary_cap": 90875,
+        "backup_needed": true,
+        "asp_backups_min": 47,
+        "asp_backups_max": 47,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 699,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 1179,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1751713,
+        "total_cost_max": 2380383,
+        "total_cost_range": 628670,
+        "soc_min": 51519,
+        "soc_max": 72428,
+        "soc_headroom_pct": 114.7,
+        "env_min": 52139,
+        "env_max": 73024,
+        "env_headroom_pct": 137.0,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 13.8,
+        "backup_cap_util_max_pct": 13.8,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 2512,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0001",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0002",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0004",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0007",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0009",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0014",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0015",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0016",
+            "freq": 2512,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p1000",
+            "freq": 846,
+            "freq_pct": 33.7
+          },
+          {
+            "supplier": "p0993",
+            "freq": 848,
+            "freq_pct": 33.8
+          },
+          {
+            "supplier": "p0992",
+            "freq": 850,
+            "freq_pct": 33.8
+          },
+          {
+            "supplier": "p0989",
+            "freq": 854,
+            "freq_pct": 34.0
+          },
+          {
+            "supplier": "p0872",
+            "freq": 856,
+            "freq_pct": 34.1
+          }
+        ]
+      },
+      "w2": {
+        "n_disrupted": 300,
+        "cap_lost": 38792,
+        "cap_lost_pct": 30.1,
+        "eff_primary_cap": 90038,
+        "backup_needed": true,
+        "asp_backups_min": 52,
+        "asp_backups_max": 52,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 699,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 1307,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1758586,
+        "total_cost_max": 2402787,
+        "total_cost_range": 644201,
+        "soc_min": 51605,
+        "soc_max": 72841,
+        "soc_headroom_pct": 115.0,
+        "env_min": 52192,
+        "env_max": 73311,
+        "env_headroom_pct": 137.2,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 15.1,
+        "backup_cap_util_max_pct": 15.1,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 2512,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0002",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0006",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0008",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0010",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0012",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0013",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0015",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0017",
+            "freq": 2512,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p1000",
+            "freq": 5,
+            "freq_pct": 0.2
+          },
+          {
+            "supplier": "p0999",
+            "freq": 7,
+            "freq_pct": 0.3
+          },
+          {
+            "supplier": "p0995",
+            "freq": 11,
+            "freq_pct": 0.4
+          },
+          {
+            "supplier": "p0992",
+            "freq": 13,
+            "freq_pct": 0.5
+          },
+          {
+            "supplier": "p0987",
+            "freq": 15,
+            "freq_pct": 0.6
+          }
+        ]
+      },
+      "w3": {
+        "n_disrupted": 300,
+        "cap_lost": 37801,
+        "cap_lost_pct": 29.3,
+        "eff_primary_cap": 91029,
+        "backup_needed": true,
+        "asp_backups_min": 46,
+        "asp_backups_max": 46,
+        "asp_backups_consistent": true,
+        "primary_selected_min": 699,
+        "primary_selected_max": 1000,
+        "asp_obj_value": 1160,
+        "asp_obj_consistent": true,
+        "total_cost_min": 1739325,
+        "total_cost_max": 2376279,
+        "total_cost_range": 636954,
+        "soc_min": 50971,
+        "soc_max": 72374,
+        "soc_headroom_pct": 112.4,
+        "env_min": 52458,
+        "env_max": 72972,
+        "env_headroom_pct": 138.4,
+        "fill_rate_min": 100.0,
+        "fill_rate_max": 100.0,
+        "backup_cap_util_min_pct": 13.5,
+        "backup_cap_util_max_pct": 13.5,
+        "top_backup_suppliers": [
+          {
+            "supplier": "b001",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b002",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b003",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b004",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b005",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b006",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b007",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b008",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b009",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "b010",
+            "freq": 2512,
+            "freq_pct": 100.0
+          }
+        ],
+        "top_primary_suppliers": [
+          {
+            "supplier": "p0001",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0002",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0003",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0006",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0007",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0008",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0010",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0011",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0014",
+            "freq": 2512,
+            "freq_pct": 100.0
+          },
+          {
+            "supplier": "p0017",
+            "freq": 2512,
+            "freq_pct": 100.0
+          }
+        ],
+        "low_primary_suppliers": [
+          {
+            "supplier": "p0004",
+            "freq": 3,
+            "freq_pct": 0.1
+          },
+          {
+            "supplier": "p0053",
+            "freq": 1673,
+            "freq_pct": 66.6
+          },
+          {
+            "supplier": "p0984",
+            "freq": 1675,
+            "freq_pct": 66.7
+          },
+          {
+            "supplier": "p0733",
+            "freq": 1679,
+            "freq_pct": 66.8
+          },
+          {
+            "supplier": "p0547",
+            "freq": 1685,
+            "freq_pct": 67.1
+          }
+        ]
+      }
+    }
+  }
+]
